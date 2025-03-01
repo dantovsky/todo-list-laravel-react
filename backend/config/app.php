@@ -123,4 +123,17 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | CORS Configuration
+    |--------------------------------------------------------------------------
+    |
+    | Oriented by Gemini Code Assist
+    | This value determines the allowed origins for Cross-Origin Resource Sharing (CORS).
+    | It should be a comma-separated list of allowed origins.
+    |
+    */
+
+    'cors_allowed_origins' => explode(',', env('CORS_ALLOWED_ORIGINS', 'http://localhost:5173')),
+
 ];
