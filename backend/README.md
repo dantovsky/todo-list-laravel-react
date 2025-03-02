@@ -6,7 +6,7 @@ Backend API for the Todo List application.
 
 ## How to use the API endpoints
 
-### GET » Listas todas as tarefas
+### GET » Listar todas as tarefas
 
 http://localhost:8000/api/todos
 
@@ -37,7 +37,7 @@ Response:
 ]
 ```
 
-### GET » Listas uma tarefa
+### GET » Listar uma tarefa
 
 http://localhost:8000/api/todos/2
 
