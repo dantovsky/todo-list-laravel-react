@@ -4,6 +4,13 @@
 Backend API for the Todo List application.
 </p>
 
+## How to start the server
+
+In command line:
+```
+php artisan serve
+```
+
 ## How to use the API endpoints
 
 ### GET » Listar todas as tarefas
@@ -79,10 +86,12 @@ Response:
 http://localhost:8000/api/todos/3
 
 Body:
+```json
 {
 	"title": "Comprar pão de cementes",
 	"completed": true
 }
+```
 
 Response:
 ```json
