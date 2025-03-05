@@ -6,7 +6,7 @@ This is a full-stack web application built with Laravel for the backend API and 
 
 See the application runnig in a subdomain:  
 
-**ToDo List with Laravel and React » TypeScript**
+**ToDo List with Laravel and React » TypeScript**  
 [https://todolist.boowebsites.com](https://todolist.boowebsites.com)
 
 ## Folder structure
