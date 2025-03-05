@@ -4,6 +4,11 @@
 
 This is a full-stack web application built with Laravel for the backend API and React with TypeScript for the frontend. It's designed as a simple yet functional `Todo List` application as a experimental project monorepo.
 
+See the application runnig in a subdomain:  
+
+**ToDo List with Laravel and React » TypeScript**
+[https://todolist.boowebsites.com](https://todolist.boowebsites.com)
+
 ## Folder structure
 
 -   `backend/`: Contains the Laravel backend API code.
