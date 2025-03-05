@@ -9,7 +9,7 @@ export interface Task {
 }
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api', // Ajusta se necessário
+  baseURL: import.meta.env.VITE_API_URL, // 'http://localhost:8000/api', // Ajusta se necessário
 });
 
 export const getTasks = async (): Promise<Task[]> => {
